@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d44a8394bba44adca80154b6a8d03f5e" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="onlinemarketingModel.adminn" Width="1.5" PointX="2.25" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlinemarketingModel.category" Width="1.5" PointX="4.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlinemarketingModel.product" Width="1.5" PointX="7.75" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlinemarketingModel.sysdiagrams" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="onlinemarketingModel.tbl_user" Width="1.5" PointX="2.5" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="onlinemarketingModel.FK__category__ad_id___3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="onlinemarketingModel.FK__product__cat_id___45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="onlinemarketingModel.FK__product__pro_use__46E78A0C" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="onlinemarketingModel.order_table" Width="1.5" PointX="10.875" PointY="3.125" />
+        <EntityTypeShape EntityType="onlinemarketingModel.tbl_invoice" Width="1.5" PointX="8" PointY="5.25" />
+        <AssociationConnector Association="onlinemarketingModel.FK__order_tab__o_fk___6477ECF3" />
+        <AssociationConnector Association="onlinemarketingModel.FK__order_tab__o_fk___656C112C" />
+        <AssociationConnector Association="onlinemarketingModel.FK__order_tab__o_fk___66603565" />
+        <AssociationConnector Association="onlinemarketingModel.FK__tbl_invoi__in_fk__5CD6CB2B" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
